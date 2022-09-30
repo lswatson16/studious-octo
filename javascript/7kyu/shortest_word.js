@@ -16,3 +16,8 @@ function findShort(s) {
     .map((word) => word.length)
     .sort((a, b) => a - b)[0];
 }
+
+// other solution
+function findShort(s) {
+  return Math.min(...s.split(" ").map((word) => word.length));
+}

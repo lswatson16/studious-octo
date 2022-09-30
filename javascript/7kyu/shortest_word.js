@@ -17,7 +17,9 @@ function findShort(s) {
     .sort((a, b) => a - b)[0];
 }
 
-// other solution
+// other solution using Math.min and spread operator
+// see docs on Math.min https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/min
+
 function findShort(s) {
   return Math.min(...s.split(" ").map((word) => word.length));
 }

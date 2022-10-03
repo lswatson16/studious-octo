@@ -1,5 +1,14 @@
 # studious-octo
 
-A collection of Codewars kata solutions in JavaScript and Ruby.
+A collection of Codewars kata solutions in varying languages.
 
-Follow along and join my journey to daily coding challenges. I'll provide solutions and the steps I took to solve them.
+- JavaScript
+- Ruby
+- SQL
+
+Follow me on Codewars 👇🏽
+
+[![Codewars](https://www.codewars.com/users/lily_dev/badges/large)
+](https://www.codewars.com/users/lily_dev)
+
+Let's connect to discuss coding challenges!

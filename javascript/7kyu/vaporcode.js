@@ -21,5 +21,5 @@ Steps:
 */
 
 function vaporcode(string) {
-  return string.toUpperCase().replace(/[ ]/gi, "").split("").join("  ");
+  return string.toUpperCase().replace(/ /gi, "").split("").join("  ");
 }

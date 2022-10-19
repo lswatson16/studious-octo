@@ -23,3 +23,11 @@ Steps:
 function vaporcode(string) {
   return string.toUpperCase().replace(/ /gi, "").split("").join("  ");
 }
+
+// another solution
+function vaporcode(string) {
+  return Array.from(string.replace(/\s+/g, "").toUpperCase()).join("  ");
+}
+
+// another solution
+const vaporcode = (string) => string.toUpperCase().match(/\S/g).join(`  `);

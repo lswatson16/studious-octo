@@ -14,3 +14,8 @@ The method shoulf return:
 String.prototype.reverse = function () {
   return this.split("").reverse().join("");
 };
+
+// another solution
+String.prototype.reverse = function () {
+  return [...this].reverse().join("");
+};

@@ -8,7 +8,7 @@ A collection of Codewars kata solutions in varying languages.
 
 Follow me on Codewars 👇🏽
 
-[![Codewars](https://www.codewars.com/users/lily__dev/badges/large)
-](https://www.codewars.com/users/lily__dev)
+[![Codewars](https://www.codewars.com/users/lily_webdev/badges/large)
+](https://www.codewars.com/users/lily_webdev)
 
 Let's connect to discuss coding challenges!

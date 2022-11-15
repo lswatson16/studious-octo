@@ -19,5 +19,5 @@ function removeExclamationMarks(s) {
 
 // Solution 2 using regex
 function removeExclamationMarks(s) {
-  return s.replace(/!/gi, "");
+  return s.replace(/!/g, "");
 }

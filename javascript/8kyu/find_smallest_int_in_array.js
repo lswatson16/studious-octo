@@ -7,7 +7,7 @@ Instructions can be found here: https://www.codewars.com/kata/55a2d7ebe362935a21
 
 Steps to solve:
 - sort the integers in ascending order (low to high)
-- return the first element in the array which is the smallest integer
+- return the first element in the array which is the smallest
 */
 class SmallestIntegerFinder {
   findSmallestInt(args) {

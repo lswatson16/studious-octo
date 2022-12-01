@@ -8,10 +8,16 @@ Steps:
   - example: "G" => "G"; "T" => "U"
 */
 
+// Solution A
 function DNAtoRNA(dna) {
   // create a function which returns an RNA sequence from the given DNA sequence
   return dna
     .split('')
     .map((m) => (m === 'T' ? 'U' : m))
     .join('');
+}
+
+// Solution B uses regex and replace method
+function DNAtoRNA(dna) {
+  return dna.replace(/T/g, 'U')
 }

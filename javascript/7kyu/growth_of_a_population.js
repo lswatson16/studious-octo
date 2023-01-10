@@ -15,3 +15,16 @@ const nbYear = (p0, percent, aug, p) => {
   }
   return years;
 };
+
+// ---------- Solution B ----------
+const nbYear = (p0, percent, aug, p) => {
+  let startPop = p0;
+  let years = 0;
+
+  while (startPop < p) {
+    years++;
+    startPop += Math.floor(startPop * (percent / 100) + aug);
+  }
+
+  return years;
+};

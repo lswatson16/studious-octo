@@ -42,3 +42,14 @@ const points = (games) => {
   }
   return total;
 };
+
+// ---------- Solution B ----------
+const points = (games) => {
+  return games.reduce((total, point) => {
+    let x = point[0];
+    let y = point[2];
+    let awards = x > y ? 3 : x === y ? 1 : 0;
+
+    return total + awards;
+  }, 0);
+};

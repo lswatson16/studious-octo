@@ -28,3 +28,19 @@ const shortcut = (string) => {
   let regex = /[a,e,i,o,u]/g;
   return string.split(regex).join('');
 };
+
+// ---------- Solution C ----------
+const shortcut = (string) => {
+  return string
+    .split('')
+    .filter((e) => !'aeiou'.includes(e))
+    .join('');
+};
+
+// ---------- Solution D ----------
+const shortcut = (string) => {
+  return string
+    .split('')
+    .filter((e) => ['a', 'e', 'i', 'o', 'u'].indexOf(e) === -1)
+    .join('');
+};

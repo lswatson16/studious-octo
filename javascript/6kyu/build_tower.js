@@ -17,3 +17,5 @@ const towerBuilder = (floors) => {
 
   return pyramid;
 };
+
+// console.log(towerBuilder(10));

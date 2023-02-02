@@ -17,9 +17,24 @@ b = 4
 */
 
 // ---------- Solution A ----------
-
 const between = (a, b) => {
   return [...Array(b - a + 1).fill(a)].map((n, i) => {
     return n + i;
   });
+};
+
+// ---------- Solution B ----------
+const between = (a, b) => {
+  let results = [];
+
+  for (let n = a; n <= b; n++) {
+    results.push(n);
+  }
+
+  return results;
+};
+
+// ---------- Solution C ----------
+const between = (a, b) => {
+  return [...Array(b - a + 1)].fill().map((_, i) => a + i);
 };

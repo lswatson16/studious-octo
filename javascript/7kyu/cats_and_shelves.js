@@ -19,3 +19,13 @@ const solution = (start, finish) => {
   }
   return jumps;
 };
+
+// ---------- Solution B ----------
+const solution = (start, finish) => {
+  const difference = finish - start;
+  return Math.floor(difference / 3) + (difference % 3);
+};
+
+// ---------- Solution C ----------
+const solution = (start, finish, difference = finish - start) =>
+  Math.floor(difference / 3) + (difference % 3);
